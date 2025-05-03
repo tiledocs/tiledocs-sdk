@@ -1,2 +1,1 @@
-# tiledocs-sdk
-TileDocs SDK
+# TileDocs SDK

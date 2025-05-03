@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2019", // Target modern ECMAScript features
+    "module": "esnext", // Use ES modules
+    "lib": ["es2019", "dom"], // Include standard libraries and DOM types
+    "declaration": true, // Generate declaration files (.d.ts)
+    "outDir": "./distr", // Output directory for compiled files
+    "rootDir": "./src", // Root directory of source files
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enable compatibility with CommonJS modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Ensure consistent file naming
+    "jsx": "react-jsx" // If you plan to use React/JSX in the UI package
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"], // Include .ts and .tsx files
+  "exclude": ["node_modules", "distr"] // Exclude node_modules and the output directory
+}

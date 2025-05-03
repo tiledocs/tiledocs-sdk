@@ -1,0 +1,17 @@
+{
+  "name": "tiledocs-sdk",
+  "version": "1.0.0",
+  "description": "SDK for TileDocs",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "vite": "6.3.4"
+  }
+}

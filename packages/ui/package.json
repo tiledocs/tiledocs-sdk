@@ -1,0 +1,26 @@
+{
+  "name": "@tiledocs/ui",
+  "version": "0.1.0",
+  "description": "UI components for tiledocs",
+  "main": "./distr/index.js",
+  "module": "./distr/index.mjs",
+  "types": "./distr/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "typescript": "5.8.3",
+    "vite": "6.3.4"
+  },
+  "files": [
+    "distr"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
